@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "query": "blue georgette kurti bulk rate",
+    "expect_product": "KB-204",
+    "expect_contains": [
+      "440"
+    ]
+  },
+  {
+    "id": 2,
+    "query": "maroon printed kurti kitna stock hai",
+    "expect_product": "KB-205",
+    "expect_contains": [
+      "60"
+    ]
+  },
+  {
+    "id": 3,
+    "query": "pink a-line floral kurti available?",
+    "expect_product": "KB-118B",
+    "expect_contains": [
+      "out of stock"
+    ]
+  },
+  {
+    "id": 4,
+    "query": "off white chikankari kurti quality kaisi hai",
+    "expect_product": "KB-091B",
+    "expect_contains": [
+      "stitching"
+    ]
+  },
+  {
+    "id": 5,
+    "query": "red banarasi silk saree 50 piece rate",
+    "expect_product": "SR-330",
+    "expect_contains": [
+      "1250"
+    ]
+  },
+  {
+    "id": 6,
+    "query": "sky blue cotton suit set chahiye",
+    "expect_product": "SU-403",
+    "expect_contains": [
+      "out of stock"
+    ]
+  },
+  {
+    "id": 7,
+    "query": "denim long kurti 10 piece rate",
+    "expect_product": "KB-275",
+    "expect_contains": [
+      "510"
+    ],
+    "expect_not_contains": [
+      "480"
+    ]
+  },
+  {
+    "id": 8,
+    "query": "organza saree wine colour ka rate",
+    "expect_product": "UNLISTED-WA-1260",
+    "expect_contains": [
+      "990",
+      "not yet"
+    ]
+  },
+  {
+    "id": 9,
+    "query": "chiffon dupatta bulk price",
+    "expect_product": "DP-511",
+    "expect_contains": [
+      "160"
+    ]
+  },
+  {
+    "id": 10,
+    "query": "KB-118 stock",
+    "expect_product": "KB-118",
+    "expect_contains": [
+      "220"
+    ]
+  },
+  {
+    "id": 11,
+    "query": "new buyer minimum order kitna hai",
+    "expect_note": "note-6",
+    "expect_contains": [
+      "15000"
+    ]
+  },
+  {
+    "id": 12,
+    "query": "do you sell mobile phone covers",
+    "expect_refusal": true
+  },
+  {
+    "id": 13,
+    "query": "aaj weather kaisa hai",
+    "expect_refusal": true
+  },
+  {
+    "id": 14,
+    "query": "give flagged items",
+    "expect_mode": "list",
+    "expect_list_contains": [
+      "UNLISTED-WA-1260"
+    ],
+    "expect_list_min": 3
+  },
+  {
+    "id": 15,
+    "query": "list items less than 500 rs",
+    "expect_mode": "list",
+    "expect_list_contains": [
+      "KB-118"
+    ],
+    "expect_list_not_contains": [
+      "SR-330"
+    ]
+  },
+  {
+    "id": 16,
+    "query": "items whose quantity is less than 50 units",
+    "expect_mode": "list",
+    "expect_list_contains": [
+      "SU-455"
+    ],
+    "expect_list_not_contains": [
+      "KB-118"
+    ]
+  },
+  {
+    "id": 17,
+    "query": "provide items that are about to get out of stock",
+    "expect_mode": "list",
+    "expect_list_contains": [
+      "SR-331"
+    ],
+    "expect_list_not_contains": [
+      "KB-204",
+      "KB-118B"
+    ]
+  },
+  {
+    "id": 18,
+    "query": "which items are out of stock",
+    "expect_mode": "list",
+    "expect_list_contains": [
+      "KB-118B",
+      "SU-403"
+    ],
+    "expect_list_not_contains": [
+      "KB-204"
+    ]
+  }
+]

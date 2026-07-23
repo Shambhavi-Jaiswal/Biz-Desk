@@ -1,0 +1,21 @@
+name: eval
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install scikit-learn
+      - name: Build knowledge base (demo dataset)
+        run: python3 scripts/build_kb.py
+      - name: Run evaluation harness
+        run: python3 src/evaluation/run_eval.py

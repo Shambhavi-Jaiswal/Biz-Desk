@@ -1,0 +1,3 @@
+scikit-learn>=1.3
+# optional - only needed if you set ANTHROPIC_API_KEY for LLM merge-checks and answer phrasing
+anthropic>=0.40
