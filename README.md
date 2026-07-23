@@ -1,6 +1,6 @@
 # BizDesk - Ask your business records anything
 
-![eval](https://github.com/YOUR_USERNAME/bizdesk/actions/workflows/eval.yml/badge.svg)
+![eval](https://github.com/Shambhavi-Jaiswal/Biz-Desk/actions/workflows/eval.yml/badge.svg)
 
 A grounded RAG system for ANY small business whose critical knowledge is scattered
 across three places that never agree with each other: a stock/price spreadsheet,
